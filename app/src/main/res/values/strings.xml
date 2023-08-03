@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppProyecto_final</string>
+    <string name="btt_comparar">Comparar textos</string>
+    <string name="tview_indicaciones">Ingrese un texto: </string>
+    <string name="tview_resultado"></string>
+    <string name="tview_advertencia"></string>
+</resources>

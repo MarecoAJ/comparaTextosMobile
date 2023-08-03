@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vistas.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tview_primero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tview_indicaciones"/>
+
+        <EditText
+            android:id="@+id/etxt_primer_texto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tview_segundo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tview_indicaciones" />
+        <EditText
+            android:id="@+id/etxt_segundo_texto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
+        <Button
+            android:id="@+id/btt_comparar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btt_comparar"/>
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
+        <TextView
+            android:id="@+id/tview_resultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/tview_resultado"/>
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp"/>
+        <TextView
+            android:id="@+id/tview_advertencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/tview_advertencia"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
